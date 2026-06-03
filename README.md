@@ -8,13 +8,13 @@ Manual recording of bus in-time and out-time is time-consuming and prone to erro
 # TECHNOLOGIES USED 
   1. HTML
   2. CSS
-  • JavaScript
-  • MySQL
-  • GitHub
+  3. JavaScript
+  4. MySQL
+  5. GitHub
 # PROJECT OBJECTIVES 
-  → To automate the recording of bus in-time and out-time.
-  → To reduce manual data entry and human errors.
-  → To store bus timing records securely in a database.
-  → To provide easy access to attendance and timing information.
-  → To improve the efficiency of bus monitoring and management. 
+  1. To automate the recording of bus in-time and out-time.
+  2. To reduce manual data entry and human errors.
+  3. To store bus timing records securely in a database.
+  4. To provide easy access to attendance and timing information.
+  5. To improve the efficiency of bus monitoring and management. 
   
