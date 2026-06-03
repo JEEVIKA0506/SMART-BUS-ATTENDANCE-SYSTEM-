@@ -6,11 +6,11 @@ This system allows bus timing information to be recorded digitally through a mob
 # PROBLEM STATEMENT :
 Manual recording of bus in-time and out-time is time-consuming and prone to errors. This project aims to automate bus attendance and timing records, improving accuracy, efficiency, and data management.
 # TECHNOLOGIES USED 
-  → HTML
-  → CSS
-  → JavaScript
-  → MySQL
-  → GitHub
+  • HTML
+  • CSS
+  • JavaScript
+  • MySQL
+  • GitHub
 # PROJECT OBJECTIVES 
   → To automate the recording of bus in-time and out-time.
   → To reduce manual data entry and human errors.
