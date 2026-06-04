@@ -28,15 +28,15 @@ Manual recording of bus in-time and out-time is time-consuming and prone to erro
        2. Update trip details.
 # Module 
     1. Login Module
-          ⁕ User authentication and access control
+           User authentication and access control
     2. Bus Time Management Module
-          ⁕ Record bus in-time and out-time
+           Record bus in-time and out-time
     3. Attendance Module
-          ⁕ Manage and store attendance records
+           Manage and store attendance records
     4. Database Module
-          ⁕ Store bus and attendance data securely
+           Store bus and attendance data securely
     5. Report Module
-          ⁕ View and generate timing and attendance reports
+           View and generate timing and attendance reports
 
        
 
