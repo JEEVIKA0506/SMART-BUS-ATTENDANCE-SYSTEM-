@@ -16,5 +16,29 @@ Manual recording of bus in-time and out-time is time-consuming and prone to erro
   2. To reduce manual data entry and human errors.
   3. To store bus timing records securely in a database.
   4. To provide easy access to attendance and timing information.
-  5. To improve the efficiency of bus monitoring and management. 
+  5. To improve the efficiency of bus monitoring and management.
+# USER & MODULE IDENTIFICATION 
+" USERS "
+   • Admin
+       1. Manage bus records
+       2. View in-time and out-time details
+       3. Generate reports
+   • Bus Driver/Staff
+       1. Record bus arrival and departure times
+       2. Update trip details
+" MODULES "
+    1. Login Module
+          User authentication and access control
+    2. Bus Time Management Module
+          Record bus in-time and out-time
+    3. Attendance Module
+           Manage and store attendance records
+    4. Database Module
+           Store bus and attendance data securely
+    5. Report Module
+           View and generate timing and attendance reports
+
+       
+
+     
   
