@@ -19,11 +19,11 @@ Manual recording of bus in-time and out-time is time-consuming and prone to erro
   5. To improve the efficiency of bus monitoring and management.
 # USER & MODULE IDENTIFICATION 
 " USERS "
-   • Admin
+   1. Admin
        1. Manage bus records
        2. View in-time and out-time details
        3. Generate reports
-   • Bus Driver/Staff
+   2. Bus Driver/Staff
        1. Record bus arrival and departure times
        2. Update trip details
 " MODULES "
