@@ -66,6 +66,26 @@ Manual recording of bus in-time and out-time is time-consuming and prone to erro
      |-------------------> Record Bus Out-Time
      |-------------------> View Records
      |-------------------> Logout
+# DATABASE REQUIREMENT ANALYSIS 
+# Database Requirement Analysis
+   The Smart Bus Attendance System requires a database to store and manage bus timing and attendance information efficiently. The database maintains records of buses, drivers, administrators, and attendance logs.
+# Data Requirements
+  1. Bus details (Bus ID, Bus Number, Route)
+  2. Driver details (Driver ID, Name, Contact)
+  3. Admin details (Admin ID, Username, Password)
+  4. Attendance records (Date, In-Time, Out-Time)
+# Functional Requirements
+  1. Store bus in-time and out-time records.
+  2. Manage bus and driver information.
+  3. View attendance history and reports.
+  4. Provide secure access for administrators.
+# Database Entities
+   1. Admin
+   2. Bus
+   3. Driver
+   4. Attendance Record
+# Expected Outcome
+   The database will ensure accurate storage, retrieval, and management of bus attendance and timing data, reducing manual work and improving efficiency.
            
                                  
 
