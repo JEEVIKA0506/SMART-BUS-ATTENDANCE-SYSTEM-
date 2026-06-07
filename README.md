@@ -27,18 +27,47 @@ Manual recording of bus in-time and out-time is time-consuming and prone to erro
        1. Record bus arrival and departure times
        2. Update trip details.
 # Module 
-    1. Login Module
+   1. Login Module
            User authentication and access control
-    2. Bus Time Management Module
+   2. Bus Time Management Module
            Record bus in-time and out-time
-    3. Attendance Module
+   3. Attendance Module
            Manage and store attendance records
-    4. Database Module
+   4. Database Module
            Store bus and attendance data securely
-    5. Report Module
-           View and generate timing and attendance reports
+   5. Report Module
+           View and generate timing and attendance report
+# USE CASE DIAGRAM PREPARATION      
+# Actors
+   1. Admin
+   2. Bus Driver/Staff
+ # Use Cases
+   1. Login
+   2. Record Bus In-Time
+   3. Record Bus Out-Time
+   4. Manage Bus Details
+   5. View Attendance Records
+   6. Generate Reports
+   7. Logout
+ # Simple Use Case Diagram
+   +----------------------+
+   | Smart Bus Attendance |
+   |        System        |
+   +----------------------+
 
-       
+   Admin -----------------> Login
+     |-------------------> Manage Bus Details
+     |-------------------> View Attendance Records
+     |-------------------> Generate Reports
+     |-------------------> Logout
+
+ Bus Driver/Staff -------> Login
+     |-------------------> Record Bus In-Time
+     |-------------------> Record Bus Out-Time
+     |-------------------> View Records
+     |-------------------> Logout
+           
+                                 
 
      
   
