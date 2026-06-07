@@ -50,18 +50,18 @@ Manual recording of bus in-time and out-time is time-consuming and prone to erro
    6. Generate Reports
    7. Logout
  # Simple Use Case Diagram
-   +----------------------+
-   | Smart Bus Attendance |
-   |        System        |
-   +----------------------+
+    +----------------------+
+    | Smart Bus Attendance |
+    |        System        |
+    +----------------------+
 
-   Admin -----------------> Login
+    Admin -----------------> Login
      |-------------------> Manage Bus Details
      |-------------------> View Attendance Records
      |-------------------> Generate Reports
      |-------------------> Logout
 
- Bus Driver/Staff -------> Login
+    Bus Driver/Staff -------> Login
      |-------------------> Record Bus In-Time
      |-------------------> Record Bus Out-Time
      |-------------------> View Records
