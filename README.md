@@ -86,8 +86,47 @@ Manual recording of bus in-time and out-time is time-consuming and prone to erro
    4. Attendance Record
 # Expected Outcome
    The database will ensure accurate storage, retrieval, and management of bus attendance and timing data, reducing manual work and improving efficiency.
-           
-                                 
+# Database Schema Creation    
+# SQL Schema – Smart Bus Attendance System 
+   user_id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(100) NOT NULL,
+    email VARCHAR(100) UNIQUE NOT NULL,
+    password VARCHAR(255) NOT NULL,
+    role ENUM('Admin','Driver') NOT NULL,
+    phone VARCHAR(15)
+);
 
-     
-  
+CREATE TABLE Bus (
+    bus_id INT PRIMARY KEY AUTO_INCREMENT,
+    bus_number VARCHAR(20) UNIQUE NOT NULL,
+    route_name VARCHAR(100),
+    capacity INT,
+    status VARCHAR(20) DEFAULT 'Active'
+);
+
+CREATE TABLE Driver (
+    driver_id INT PRIMARY KEY AUTO_INCREMENT,
+    user_id INT NOT NULL,
+    license_number VARCHAR(50) UNIQUE NOT NULL,
+    bus_id INT NOT NULL,
+    FOREIGN KEY (user_id) REFERENCES Users(user_id),
+    FOREIGN KEY (bus_id) REFERENCES Bus(bus_id)
+);
+
+CREATE TABLE Attendance_Record (
+    attendance_id INT PRIMARY KEY AUTO_INCREMENT,
+    bus_id INT NOT NULL,
+    driver_id INT NOT NULL,
+    attendance_date DATE NOT NULL,
+    in_time TIME,
+    out_time TIME,
+    remarks VARCHAR(255),
+    FOREIGN KEY (bus_id) REFERENCES Bus(bus_id),
+    FOREIGN KEY (driver_id) REFERENCES Driver(driver_id)
+);
+
+
+# Outcome :
+Database schema designed with 4 entities, 4 primary keys, and 4 foreign key relationships for the Smart Bus Attendance System.
+
+      
